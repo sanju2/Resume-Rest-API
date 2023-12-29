@@ -9,6 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@master
       - name: make zip file
         uses: montudor/action-zip@v0.1.0
         with:
