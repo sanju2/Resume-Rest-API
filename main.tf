@@ -1,3 +1,15 @@
+terraform {
+  required_providers {
+    aws = {
+      version =">=4.9.0"
+      source = "hashicorp/aws"
+    }
+  }
+}
+provider "aws" {
+  region = "us-east-2"
+}
+
 resource "aws_lambda_function" "ResumeAPI" {
   filename         = data.archive_file.zip_the_python_code.output_path
   source_code_hash = data.archive_file.zip_the_python_code.output_base64sha256
