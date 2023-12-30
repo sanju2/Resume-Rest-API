@@ -7,7 +7,7 @@ def lambda_handler(event, context):
             "label": "DevOps/Cloud Engineer",
             "picture": "",
             "email": "lsanjeewa947@gmail.com",
-            "phone": "(971) 553781902",
+            "phone": "(+971)553781902",
             "website": "https://devopswithlasantha.tech",
             "summary": "Cloud & DevOps Enthusiast, AWS Community Builder",
             "location": {
